@@ -1,0 +1,35 @@
+body{
+    background-image:url("Homeser/regback.png");
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.register{
+    margin: 40px  60px;
+    margin-top: 40px;
+     width: 80%;
+     height: 50%;
+     padding: 20px;
+     border: 20px #3a3734;
+     background-color: rgb(136, 105, 68);
+     text-align: left;
+}
+Input{
+    width:100%;
+    padding-right:20px ;
+}
+
+.register .name{
+    border: 2px solid black;
+    margin: 10px;
+    padding:20px;
+    padding-left: 15px;
+    
+}
+
+#btn{
+    width: 40%;
+    margin:20px ;
+}

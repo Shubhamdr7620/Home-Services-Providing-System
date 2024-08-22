@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Registration</title>
+        <link rel="stylesheet" href="userreg.css" >
+</head>
+<body>
+    <div class="register">
+    <form action="userregister.php" method="POST">
+        <h1><center>User Registration...<center></h1>
+<div class="name">
+         Name<input type="text" class="Input" name="name"required><br><br>
+         Address<input type="textarea" name="add" class="Input" required><br><br>
+         E-mail<input type="email" name="email"required class="Input" ><br><br>
+         Password<input type="password"  name="pass" required class="Input" ><br><br>
+         Confirm Password <input type="password"  name="pass" required class="Input" ><br><br>
+        
+
+        <a href="dashboard.php"><input id="btn" type="submit" value="SUBMIT"></a>
+        <input type="reset" id="btn" value="RESET">
+        </div>
+    </form>
+    </div>
+</body>
+</html>

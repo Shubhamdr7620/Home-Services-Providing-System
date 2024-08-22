@@ -1,0 +1,72 @@
+<html>
+    <head>
+    <link rel="stylesheet" href="serproregister.css" >
+</head>
+    <body>
+<div class="margin"></div>
+    <div class="container">
+    <div class="card-title">
+                <center><h3 class="text-center">Book Service From Here</h3></center>
+            </div>
+            <hr>
+            <form action="booking.php" method="post" >
+                <div class="all">
+                <div class="form-group">
+                    <label for="">Name</label>
+                    <input id="name" name="name" type="text" class="form-control" placeholder="Name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="">Contact No.</label>
+                    <input id="contact" name="contact" type="text" class="form-control" placeholder="Contact" minlength="10"
+                        maxlength="10" required>
+                </div>
+
+                <div class="form-group"> 
+                    <label for="">E-mail</label><br>
+                    <input id="email" name="email" type="email" class="form-control" placeholder="Enter E-mail"
+                        required>
+                </div>
+
+                <div class="form-group">
+                    <label for="">Address</label>
+                    <input id="adder2" name="add" type="text" class="form-control" placeholder="Enter Address"
+                        required>
+                </div>
+
+                <div class="form-group">
+                    <label for="">Date</label><br>
+                    <input id="adder2" name="date" type="date" class="form-control" placeholder="Enter Address"
+                        required>
+                </div>
+
+                <div class="form-group">
+                    <label for="">Day</label>
+                    <input id="adder2" name="day" type="text" class="form-control" placeholder="Enter Day"
+                        required>
+                </div>
+            
+                    <div class="form-group">
+                    <label for="">Add Description</label><br>
+                    <textarea name="descr" id="descr" class="form-control" cols="30" rows="5"
+                        placeholder="Tell something about you..." required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="">Enter Provider Name</label>
+                    <input id="adder2" name="proname" type="text" class="form-control" placeholder="Enter Provider Name Here"
+                        required>
+                </div>
+                <div class="form-group">
+                    <label for="">Enter Provider City Name</label>
+                    <input id="adder2" name="procity" type="text" class="form-control" placeholder="Enter Provider City Name Here"
+                        required>
+                </div>
+
+                <button style="margin-top: 30px;" class="btn btn-block btn-primary" type="submit" name="register" id="register">Register</button>
+                </div>
+            </form>
+ </div>
+
+
+        </body>
+    </html>
